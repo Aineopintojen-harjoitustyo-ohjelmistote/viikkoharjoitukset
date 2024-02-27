@@ -1,10 +1,10 @@
-class Kassapaate:
+class Kassapääte:
     def __init__(self):
-        self.kassassa_rahaa = 100000
+        self.kassassa_rahaa = 100_000
         self.edulliset = 0
         self.maukkaat = 0
 
-    def syo_edullisesti_kateisella(self, maksu):
+    def syö_edullisesti_käteisella(self, maksu):
         if maksu >= 240:
             self.kassassa_rahaa = self.kassassa_rahaa + 240
             self.edulliset += 1
@@ -12,7 +12,7 @@ class Kassapaate:
         else:
             return maksu
 
-    def syo_maukkaasti_kateisella(self, maksu):
+    def syö_maukkaasti_käteisella(self, maksu):
         if maksu >= 400:
             self.kassassa_rahaa = self.kassassa_rahaa + 400
             self.maukkaat += 1
@@ -20,7 +20,7 @@ class Kassapaate:
         else:
             return maksu
 
-    def syo_edullisesti_kortilla(self, kortti):
+    def syö_edullisesti_kortilla(self, kortti):
         if kortti.saldo >= 240:
             kortti.ota_rahaa(240)
             self.edulliset += 1
@@ -28,7 +28,7 @@ class Kassapaate:
         else:
             return False
 
-    def syo_maukkaasti_kortilla(self, kortti):
+    def syö_maukkaasti_kortilla(self, kortti):
         if kortti.saldo >= 400:
             kortti.ota_rahaa(400)
             self.maukkaat += 1
