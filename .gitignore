@@ -1,4 +1,11 @@
 # Editor backups:
 *~
+
 # Poetry local dependencies
 poetry.lock
+
+#Coverage
+.coverage
+
+#Python cache
+__pycache__
