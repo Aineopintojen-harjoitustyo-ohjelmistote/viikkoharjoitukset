@@ -1,0 +1,4 @@
+# Editor backups:
+*~
+# Poetry local dependencies
+poetry.lock

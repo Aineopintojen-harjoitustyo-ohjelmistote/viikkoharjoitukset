@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "maksukortti"
+version = "0.1.0"
+description = ""
+authors = ["Aineopintojen-harjoitustyo-ohjelmistote <github-hy-ohte@v.hix.fi>"]
+readme = "README.md"
+packages = [{include = "maksukortti", from = "src"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.0.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
