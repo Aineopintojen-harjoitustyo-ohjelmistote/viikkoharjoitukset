@@ -6,6 +6,7 @@ poetry.lock
 
 #Coverage
 .coverage
+htmlcov
 
 #Python cache
 __pycache__
