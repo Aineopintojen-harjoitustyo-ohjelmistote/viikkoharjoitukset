@@ -9,3 +9,6 @@ poetry.lock
 
 #Python cache
 __pycache__
+
+# Pytest caches
+.pytest_cache
