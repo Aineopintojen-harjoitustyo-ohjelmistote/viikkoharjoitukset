@@ -10,5 +10,7 @@ Tämä repositorio sisältää viikkoharjoitukset. Itse harjoitustyö erillisess
 - `git clone https://git.hix.fi/sliceitoff.git`
 - `cd sliceitoff`
 - `./dev.sh`
+- `./dev.sh dev`
+- `./dev.sh run`
 
-Mahdollisen issuen voit jättää ihan hyvin tänne GitHub:iin. Toivottavasti tästä ei ole liikaa viavaa. 
+Mahdollisen issuen voit jättää ihan hyvin tänne GitHub:iin. Toivottavasti tästä ei ole liikaa vaivaa.
