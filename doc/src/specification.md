@@ -4,6 +4,7 @@
 </head>
 
 <hr class="PAGE-BREAK">
+
 # Gameplay
 
 ## Goal
@@ -24,11 +25,13 @@ comes from different bonuses. One can for example get bonus by being fast,
 not isolating enemies, picking up collectibles.
 
 <hr class="PAGE-BREAK">
+
 # The Look
 In one word game should look "retro". This essentially means blocky fonts,
 limited colors and definedly no rounded edges anywhere.
 
 <hr class="PAGE-BREAK">
+
 # Technical
 
 ## Used techniques
@@ -66,6 +69,7 @@ that pytest and coverage python packages will be used. Pylint takes care
 that code is good in quality and commented properly.
 
 <hr class="PAGE-BREAK">
+
 # Distribution
 
 ## Open source
