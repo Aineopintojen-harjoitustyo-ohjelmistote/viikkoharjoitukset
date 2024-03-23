@@ -15,11 +15,12 @@
 
 ## Viikko 2
 
-- FreeDOS -fontien luku (4h)
-- Refaktorointia (4h)
-- Viholliset (4h)
-- Tekstin tulostus (3h)
-- Pelin statsit (2h)
-- Dokumentointi (4h)
-- Yhteensä 21h
+- FreeDOS -fontien luku 4h
+- Refaktorointia 8h
+- Viholliset 4h
+- Väliruudut 4h
+- Tekstin tulostus 3h
+- Pelin statsit 2h
+- Dokumentointi 4h
+- Yhteensä 29h
 
